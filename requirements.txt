@@ -1,0 +1,8 @@
+# Pinned to the versions this was developed and measured against.
+numpy>=1.26
+opencv-python>=4.9
+torch>=2.2
+kornia>=0.7
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9

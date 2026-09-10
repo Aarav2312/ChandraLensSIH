@@ -1,0 +1,140 @@
+{
+  "pair": "bell",
+  "condition": "same_sensor",
+  "condition_label": "Same sensor, small geometric offset",
+  "execution_time_ms": 2693.6,
+  "matcher": {
+    "method": "LoFTR",
+    "is_fallback": false,
+    "matches_found": 1559,
+    "mean_confidence_pct": 92.7
+  },
+  "verification": {
+    "inliers": 1559,
+    "inlier_ratio_pct": 100.0
+  },
+  "accuracy": {
+    "residual_rmse_px": 0.257,
+    "subpixel": true,
+    "refined_correspondences": 1559,
+    "residual_distribution": {
+      "rmse_px": 0.2572,
+      "mean_px": 0.2292,
+      "median_px": 0.217,
+      "p95_px": 0.4299,
+      "max_px": 0.839
+    },
+    "ground_truth": {
+      "mean_corner_error_px": 0.014,
+      "max_corner_error_px": 0.027,
+      "transform": {
+        "scale": 1.01,
+        "scale_x": 1.01,
+        "scale_y": 1.01,
+        "rotation_deg": -1.5,
+        "shear": -0.0,
+        "tx_px": 1.31,
+        "ty_px": -2.45,
+        "perspective": [
+          0.0,
+          0.0
+        ],
+        "reflected": false
+      }
+    }
+  },
+  "distribution": {
+    "grid": 6,
+    "occupancy": [
+      36,
+      16,
+      26,
+      41,
+      40,
+      21,
+      27,
+      25,
+      55,
+      63,
+      56,
+      35,
+      56,
+      41,
+      64,
+      72,
+      64,
+      40,
+      49,
+      46,
+      45,
+      63,
+      56,
+      35,
+      56,
+      64,
+      42,
+      69,
+      52,
+      26,
+      35,
+      39,
+      21,
+      30,
+      33,
+      20
+    ],
+    "occupied_cells": 36,
+    "coverage": 1.0,
+    "score": 0.7378
+  },
+  "recovered_transform": {
+    "scale": 1.01004,
+    "scale_x": 1.010063,
+    "scale_y": 1.010016,
+    "rotation_deg": -1.5008,
+    "shear": 1.8e-05,
+    "tx_px": 1.299,
+    "ty_px": -2.45,
+    "perspective": [
+      1.6465649996785955e-07,
+      2.10751042903442e-08
+    ],
+    "reflected": false
+  },
+  "budget": {
+    "rmse_limit_px": 1.0,
+    "inlier_target_pct": 80.0,
+    "meets_rmse_budget": true,
+    "meets_inlier_budget": true,
+    "evaluation_grade": "OPTIMAL"
+  },
+  "gsd": {
+    "source": 1.0,
+    "reference": 1.0,
+    "reference_resampled_by": 1.0
+  },
+  "homography_matrix": [
+    [
+      1.009716834206155,
+      0.026471549612417104,
+      1.2994019910553527
+    ],
+    [
+      -0.026454665940008226,
+      1.0096694015798986,
+      -2.449991978322807
+    ],
+    [
+      1.6465649996785955e-07,
+      2.10751042903442e-08,
+      1.0
+    ]
+  ],
+  "timings_ms": {
+    "normalize": 0.0,
+    "match": 2432.3,
+    "verify": 4.8,
+    "align": 0.5,
+    "refine": 248.9
+  }
+}

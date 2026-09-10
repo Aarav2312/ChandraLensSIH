@@ -1,0 +1,140 @@
+{
+  "pair": "cleomedes",
+  "condition": "same_sensor",
+  "condition_label": "Same sensor, small geometric offset",
+  "execution_time_ms": 17670.4,
+  "matcher": {
+    "method": "LoFTR",
+    "is_fallback": false,
+    "matches_found": 3449,
+    "mean_confidence_pct": 93.1
+  },
+  "verification": {
+    "inliers": 3449,
+    "inlier_ratio_pct": 100.0
+  },
+  "accuracy": {
+    "residual_rmse_px": 0.256,
+    "subpixel": true,
+    "refined_correspondences": 3444,
+    "residual_distribution": {
+      "rmse_px": 0.2556,
+      "mean_px": 0.2278,
+      "median_px": 0.2163,
+      "p95_px": 0.4379,
+      "max_px": 0.8583
+    },
+    "ground_truth": {
+      "mean_corner_error_px": 0.018,
+      "max_corner_error_px": 0.024,
+      "transform": {
+        "scale": 1.03,
+        "scale_x": 1.03,
+        "scale_y": 1.03,
+        "rotation_deg": -2.2,
+        "shear": 0.0,
+        "tx_px": -4.847,
+        "ty_px": -4.365,
+        "perspective": [
+          0.0,
+          0.0
+        ],
+        "reflected": false
+      }
+    }
+  },
+  "distribution": {
+    "grid": 6,
+    "occupancy": [
+      71,
+      86,
+      58,
+      80,
+      48,
+      44,
+      104,
+      112,
+      113,
+      129,
+      109,
+      90,
+      107,
+      117,
+      116,
+      106,
+      126,
+      52,
+      118,
+      110,
+      114,
+      130,
+      114,
+      68,
+      91,
+      120,
+      120,
+      124,
+      116,
+      80,
+      67,
+      99,
+      74,
+      110,
+      86,
+      40
+    ],
+    "occupied_cells": 36,
+    "coverage": 1.0,
+    "score": 0.7881
+  },
+  "recovered_transform": {
+    "scale": 1.030077,
+    "scale_x": 1.030076,
+    "scale_y": 1.030077,
+    "rotation_deg": -2.1982,
+    "shear": 6.9e-05,
+    "tx_px": -4.863,
+    "ty_px": -4.382,
+    "perspective": [
+      4.6631543680784474e-08,
+      1.4985082155014099e-07
+    ],
+    "reflected": false
+  },
+  "budget": {
+    "rmse_limit_px": 1.0,
+    "inlier_target_pct": 80.0,
+    "meets_rmse_budget": true,
+    "meets_inlier_budget": true,
+    "evaluation_grade": "OPTIMAL"
+  },
+  "gsd": {
+    "source": 1.0,
+    "reference": 1.0,
+    "reference_resampled_by": 1.0
+  },
+  "homography_matrix": [
+    [
+      1.0293180932496224,
+      0.039581319198660536,
+      -4.8631539809142454
+    ],
+    [
+      -0.039510208240827994,
+      1.029316712479107,
+      -4.38219586723464
+    ],
+    [
+      4.6631543680784474e-08,
+      1.4985082155014099e-07,
+      1.0
+    ]
+  ],
+  "timings_ms": {
+    "normalize": 23.2,
+    "match": 17042.4,
+    "verify": 25.0,
+    "align": 0.9,
+    "refine": 465.8
+  }
+}

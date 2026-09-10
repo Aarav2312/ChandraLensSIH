@@ -1,0 +1,271 @@
+[
+  {
+    "id": "cleomedes",
+    "name": "Cleomedes crater",
+    "summary": "Small rotation and translation at matched resolution.",
+    "condition": "same_sensor",
+    "source_path": "datasets/real/cleomedes_source.png",
+    "reference_path": "datasets/real/cleomedes_reference.png",
+    "source_url": "/datasets/real/cleomedes_source.png",
+    "reference_url": "/datasets/real/cleomedes_reference.png",
+    "source_size": [
+      640,
+      480
+    ],
+    "reference_size": [
+      640,
+      480
+    ],
+    "src_gsd": 1.0,
+    "ref_gsd": 1.0,
+    "gsd_ratio": "1:1",
+    "ground_truth_H": [
+      [
+        1.0292408039029397,
+        0.039539443360145546,
+        -4.846523655375634
+      ],
+      [
+        -0.039539443360145546,
+        1.0292408039029397,
+        -4.365171061458955
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "applied_transform": {
+      "rotation_deg": 2.2,
+      "scale": 1.03,
+      "translation_px": [
+        14,
+        -10
+      ],
+      "illumination": null
+    },
+    "synthetic": true,
+    "provenance": {
+      "raw_frame": "datasets/real/raw/cleomedes.jpg",
+      "credit": "NASA / LRO Lunar Reconnaissance Orbiter Camera (LROC), public domain",
+      "note": "Reference generated from the source frame by a known transform. Imagery is real; the geometric and photometric differences are synthetic and exactly known."
+    }
+  },
+  {
+    "id": "humboldt",
+    "name": "Humboldt crater",
+    "summary": "Geometric offset combined with a synthetic illumination change.",
+    "condition": "sun_angle_delta",
+    "source_path": "datasets/real/humboldt_source.png",
+    "reference_path": "datasets/real/humboldt_reference.png",
+    "source_url": "/datasets/real/humboldt_source.png",
+    "reference_url": "/datasets/real/humboldt_reference.png",
+    "source_size": [
+      640,
+      480
+    ],
+    "reference_size": [
+      640,
+      480
+    ],
+    "src_gsd": 1.0,
+    "ref_gsd": 1.0,
+    "gsd_ratio": "1:1",
+    "ground_truth_H": [
+      [
+        0.9678674242432884,
+        -0.06428568338800013,
+        7.710988255267736
+      ],
+      [
+        0.06428568338800013,
+        0.9678674242432884,
+        3.1403994974507388
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "applied_transform": {
+      "rotation_deg": -3.8,
+      "scale": 0.97,
+      "translation_px": [
+        -18,
+        16
+      ],
+      "illumination": {
+        "gamma": 0.65,
+        "gradient_strength": 0.12
+      }
+    },
+    "synthetic": true,
+    "provenance": {
+      "raw_frame": "datasets/real/raw/humboldt.jpg",
+      "credit": "NASA / LRO Lunar Reconnaissance Orbiter Camera (LROC), public domain",
+      "note": "Reference generated from the source frame by a known transform. Imagery is real; the geometric and photometric differences are synthetic and exactly known."
+    }
+  },
+  {
+    "id": "bell",
+    "name": "Bell crater",
+    "summary": "Low-contrast regolith with a sub-degree rotation.",
+    "condition": "same_sensor",
+    "source_path": "datasets/real/bell_source.png",
+    "reference_path": "datasets/real/bell_reference.png",
+    "source_url": "/datasets/real/bell_source.png",
+    "reference_url": "/datasets/real/bell_reference.png",
+    "source_size": [
+      400,
+      360
+    ],
+    "reference_size": [
+      400,
+      360
+    ],
+    "src_gsd": 1.0,
+    "ref_gsd": 1.0,
+    "gsd_ratio": "1:1",
+    "ground_truth_H": [
+      [
+        1.009653898225313,
+        0.026438717790951884,
+        1.3102511525660754
+      ],
+      [
+        -0.026438717790951884,
+        1.009653898225313,
+        -2.449958122365951
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "applied_transform": {
+      "rotation_deg": 1.5,
+      "scale": 1.01,
+      "translation_px": [
+        8,
+        -6
+      ],
+      "illumination": null
+    },
+    "synthetic": true,
+    "provenance": {
+      "raw_frame": "datasets/real/raw/bell.jpg",
+      "credit": "NASA / LRO Lunar Reconnaissance Orbiter Camera (LROC), public domain",
+      "note": "Reference generated from the source frame by a known transform. Imagery is real; the geometric and photometric differences are synthetic and exactly known."
+    }
+  },
+  {
+    "id": "humboldt_crossscale",
+    "name": "Humboldt crater (4:1 scale)",
+    "summary": "Source decimated 4x against a full-resolution reference.",
+    "condition": "cross_sensor",
+    "source_path": "datasets/real/humboldt_crossscale_source.png",
+    "reference_path": "datasets/real/humboldt_crossscale_reference.png",
+    "source_url": "/datasets/real/humboldt_crossscale_source.png",
+    "reference_url": "/datasets/real/humboldt_crossscale_reference.png",
+    "source_size": [
+      320,
+      240
+    ],
+    "reference_size": [
+      1280,
+      960
+    ],
+    "src_gsd": 4.0,
+    "ref_gsd": 1.0,
+    "gsd_ratio": "4:1",
+    "ground_truth_H": [
+      [
+        3.9980262414629264,
+        0.12564303631251317,
+        -2.761362991569804
+      ],
+      [
+        -0.12564303631251317,
+        3.9980262414629264,
+        11.339736834450939
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "applied_transform": {
+      "rotation_deg": 1.8,
+      "scale": 1.0,
+      "translation_px": [
+        12,
+        -9
+      ],
+      "source_decimation": 4
+    },
+    "synthetic": true,
+    "provenance": {
+      "raw_frame": "datasets/real/raw/humboldt.jpg",
+      "credit": "NASA / LRO Lunar Reconnaissance Orbiter Camera (LROC), public domain",
+      "note": "Reference generated from the source frame by a known transform. Imagery is real; the geometric and photometric differences are synthetic and exactly known."
+    }
+  },
+  {
+    "id": "humboldt_crossmodal",
+    "name": "Humboldt crater (cross-modal proxy)",
+    "summary": "Contrast-inverted reference at 4:1 scale \u2014 intensity matching fails here.",
+    "condition": "cross_modal",
+    "source_path": "datasets/real/humboldt_crossmodal_source.png",
+    "reference_path": "datasets/real/humboldt_crossmodal_reference.png",
+    "source_url": "/datasets/real/humboldt_crossmodal_source.png",
+    "reference_url": "/datasets/real/humboldt_crossmodal_reference.png",
+    "source_size": [
+      320,
+      240
+    ],
+    "reference_size": [
+      1280,
+      960
+    ],
+    "src_gsd": 4.0,
+    "ref_gsd": 1.0,
+    "gsd_ratio": "4:1",
+    "ground_truth_H": [
+      [
+        3.9964913203954335,
+        0.1675026149167985,
+        -33.53892505328518
+      ],
+      [
+        -0.1675026149167985,
+        3.9964913203954335,
+        38.221459939235736
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "applied_transform": {
+      "rotation_deg": 2.4,
+      "scale": 1.0,
+      "translation_px": [
+        -14,
+        11
+      ],
+      "source_decimation": 4,
+      "radiometry": "contrast inversion + gamma 0.55 tone curve"
+    },
+    "synthetic": true,
+    "provenance": {
+      "raw_frame": "datasets/real/raw/humboldt.jpg",
+      "credit": "NASA / LRO Lunar Reconnaissance Orbiter Camera (LROC), public domain",
+      "note": "Reference generated from the source frame by a known transform. Imagery is real; the geometric and photometric differences are synthetic and exactly known."
+    }
+  }
+]
